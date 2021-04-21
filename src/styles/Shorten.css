@@ -1,0 +1,103 @@
+.shorten{
+    height: 350px;
+    width: 100vw;
+    /* border: 2px solid blue; */
+    position: relative;
+    top: 40px;
+    margin-bottom: 4em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.shorten__center{
+    margin: 0px 50px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    background-color: #3b3054;
+    background-image: url('../assets/bg-shorten.svg');
+    background-repeat: no-repeat;
+    background-position: 20%;
+    background-size: cover;
+    
+}
+
+.shorten__center > img{
+    width: 100vw;
+    border-radius: 10px;
+}
+
+.shorten__center > form{
+    position: absolute;       
+}
+.shorten__center-form{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightgray;
+}
+.shorten__center-form > input{
+    padding: 10px;
+    margin: 30px;
+    text-decoration: none;
+    outline: none;
+    width: 70vw;
+    font-size: 20px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+.shorten__center-form > input:focus{
+    transition: box-shadow 0.2s ease-in;
+    box-shadow: 1px 0px 0px 6px rgb(133, 108, 192);
+}
+.shorten__center-form > button{
+    padding: 0.75em 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #2acfcf;
+    color: white;
+    cursor: pointer;    
+    transition: background-color 0.2s linear;
+    text-transform: capitalize;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    width: 15%;
+    height: 50px;
+}
+    
+.shorten__center-form > button:focus{
+    transition: box-shadow 0.2s ease-in;
+    box-shadow: 1px 0px 0px 6px hsl(180deg, 66%, 79%);
+}
+.shorten__center-form > button:hover{
+    background-color: #6ae0e0;
+    color: white;   
+    transition: all 0.3s ease 0s;
+    transform: translateY(-3px);
+}
+
+.urllist{
+    /* border: 2px solid green; */
+    overflow: scroll;
+}
+
+@media (max-width: 375px){
+    .shorten{
+        height: 400px;
+        margin: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .urllist{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,32 @@
+.about{
+    height: 250px;
+    width: 100vw;
+    background-image: url('../assets/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3b3054;
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about>h1{
+    font-size: 40px;
+    color: white;
+}
+
+.about__button{
+    margin-left: 1.5em;
+}
+
+@media(max-width:375px){
+    .about{
+        height: 400px;
+        justify-content: center;
+    }
+    .about>h1{
+        font-size: 30px;
+    }
+}

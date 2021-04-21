@@ -1,0 +1,28 @@
+.button{
+  font-family: 'Poppins', sans-serif;
+}
+
+.button__main {
+    background-color: white;
+    color: gray;
+    font-weight: 700;
+    width: max-content;
+    padding: 13px 22px;
+    margin-right: 50px;
+    text-transform: capitalize;
+    border-radius: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .button__main:hover {
+    background-color: #2acfcf;
+    color: white;   
+    transition: all 0.3s ease 0s;
+    transform: translateY(-3px);
+  }
