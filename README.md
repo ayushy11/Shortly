@@ -1,6 +1,6 @@
 # Shortly
 
-This repo contains source code for [Shortly](https://github.com/facebook/create-react-app).
+This repo contains source code for [Shortly](https://ayushy11.github.io/Shortly).
 
 
 
